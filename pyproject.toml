@@ -1,0 +1,14 @@
+[project]
+name = "spleeter"
+description = "This is a ComfyUI plugin based on [a/Spleeter](https://github.com/deezer/spleete). The model files are available on BaiduNetDisk. After downloading the model, place it in the checkpoints directory."
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/feixuetuba/Spleeter"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Spleeter"
+Icon = ""
