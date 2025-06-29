@@ -2,7 +2,7 @@ from .stft import STFT
 import numpy as np
 import torch
 
-from Spleeter.nets.SpleeterNet import SpleeterNet
+from ..nets.SpleeterNet import SpleeterNet
 
 
 class Separator(object):
