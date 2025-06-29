@@ -1,6 +1,6 @@
 from torch import nn
 import torch
-from Spleeter.nets.UNet import UNet
+from .UNet import UNet
 
 
 def _weights_init(m):

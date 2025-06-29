@@ -1,7 +1,7 @@
 import json
 import os.path
-from Spleeter.model.Separator import Separator
-from Spleeter.audio.ffmpeg import FFMPEGProcessAudioAdapter
+from .Separator import Separator
+from ..audio.ffmpeg import FFMPEGProcessAudioAdapter
 
 
 class Runer:
